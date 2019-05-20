@@ -144,3 +144,20 @@ lambda = 253.7 * 10^-9; %m, valeur reelle de la longueur d'onde
 energie = h * c / lambda; %en eV
 display(lambda);
 display(energie);
+
+%%
+% calcul des coefficients de correlation des regressions lineaires
+
+RsqI = lmdlI.Rsquared();
+RsqV = lmdlV.Rsquared();
+RsqManu = lmdl.Rsquared();
+RsqOscillo = lmdl_oscillo.Rsquared();
+Rsq185 = lmdl185.Rsquared();
+Rsq195 = lmdl195.Rsquared();
+
+display(RsqI);
+display(RsqV);
+display(RsqManu);
+display(RsqOscillo);
+display(Rsq185);
+display(Rsq195);
