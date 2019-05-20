@@ -1,3 +1,7 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Max Mignolet %
+% Date: 20 May 2019    %
+%%%%%%%%%%%%%%%%%%%%%%%%
 classdef linearRegr
     properties
         data    %contains the experimental data
